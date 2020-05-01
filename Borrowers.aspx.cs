@@ -14,15 +14,5 @@ namespace DiskinvLC
 
         }
 
-        protected void btnSubmit_Click(object sender, EventArgs e)
-        {
-            if (Page.IsValid)
-            {
-                lblmessage.Text = txtFirst.Text + " " + "is added to the database.";
-                txtFirst.Text = "";
-                txtLast.Text = "";
-                txtPhone.Text = "";
-            }
-        }
     }
 }
